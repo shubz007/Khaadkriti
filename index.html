@@ -39,29 +39,7 @@
 
     <!-- Start Preloader 
     ============================================= -->
-    <div id="preloader">
-        <div id="agrica-preloader" class="agrica-preloader">
-            <div class="animation-preloader">
-                <div class="spinner"></div>
-            </div>
-            <div class="loader">
-                <div class="row">
-                    <div class="col-3 loader-section section-left">
-                        <div class="bg"></div>
-                    </div>
-                    <div class="col-3 loader-section section-left">
-                        <div class="bg"></div>
-                    </div>
-                    <div class="col-3 loader-section section-right">
-                        <div class="bg"></div>
-                    </div>
-                    <div class="col-3 loader-section section-right">
-                        <div class="bg"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
     <!-- End Preloader -->
 
     <!-- Start Header Top 
@@ -164,10 +142,10 @@
                             <a href="index.html#Gallery"   >Gallery</a>
                             
                         </li>
-                        <li class="dropdown">
+                        <!-- <li class="dropdown">
                             <a href="index.html#Instagram" >Instagram Handle</a>
                            
-                        </li>
+                        </li> -->
                         <li class="dropdown">
                             <a href="index.html#Newsletter" >Newsletter</a>
                            
@@ -601,10 +579,10 @@
                             <div class="swiper-slide">
                                 <div class="testimonial-style-one">
                                     <div class="thumb">
-                                        <img src="assets/img/farmers/3.jpg" alt="Imge Not Found">
+                                        <img src="assets/img/f3.jpg" >
                                     </div>
                                     <div class="info">
-                                        <img src="assets/img/shape/quote-big.png" alt="Image Not Found">
+                                        <img src="assets/img/shape/quote-big.png" >
                                         <p>
                                             🌟 "Khaadkriti transformed my home garden—my plants are greener, healthier,
                                             and growing beautifully without chemicals!"  </p>
@@ -629,10 +607,10 @@
                             <div class="swiper-slide">
                                 <div class="testimonial-style-one">
                                     <div class="thumb">
-                                        <img src="assets/img/farmers/2.jpg" alt="Imge Not Found">
+                                        <img src="assets/img/f2.jpg" >
                                     </div>
                                     <div class="info">
-                                        <img src="assets/img/shape/quote-big.png" alt="Image Not Found">
+                                        <img src="assets/img/shape/quote-big.png" >
                                         <p>
                                             🌟 "I’ve switched from chemical fertilizers to Khaadkriti, and my crops are
                                             thriving. The soil feels alive again!"     </p>
@@ -657,10 +635,10 @@
                             <div class="swiper-slide">
                                 <div class="testimonial-style-one">
                                     <div class="thumb">
-                                        <img src="assets/img/farmers/1.jpg" alt="Imge Not Found">
+                                        <img src="assets/img/f1.jpg" >
                                     </div>
                                     <div class="info">
-                                        <img src="assets/img/shape/quote-big.png" alt="Image Not Found">
+                                        <img src="assets/img/shape/quote-big.png" >
                                         <p>
                                             🌟 "Knowing that my vegetables are grown without harmful fertilizers gives me
                                             peace of mind. Thank you, Khaadkriti!"    </p>
@@ -779,10 +757,10 @@
     <!-- End Gallery  -->
 <!-- Instagram Feed -->
 <!-- Elfsight Instagram Feed | Untitled Instagram Feed -->
- <div id="Instagram"> 
+ <!-- <div id="Instagram"> 
     <script src="https://static.elfsight.com/platform/platform.js" async></script>
 <div class="elfsight-app-079806cf-a05f-41fb-a7f9-d1ee3c9cde75" data-elfsight-app-lazy>Instagram</div>
- </div>
+ </div> -->
 
 <!-- ======== -->
     <!-- Start Choose Us Area
@@ -865,7 +843,8 @@
                         <img src="assets/img/illustration/10.png" alt="Image Not Found">
                         <h5 class="sub-title">Have Questions?</h5>
                         <h2 class="heading">Send us a massage</h2>
-                        <form action="assets/mail/contact.php" method="POST" class="contact-form contact-form">
+                        <form class="content-form" id="contact-form"action='https://api.web3forms.com/submit' method="post"> 
+                            <input type="hidden" name="access_key" value="af0b7193-e1ba-42f6-a435-db4fb28a9f4a">
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="form-group">
