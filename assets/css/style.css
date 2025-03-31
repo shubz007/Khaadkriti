@@ -9166,3 +9166,8 @@ footer {
 		width: 7em;
 	}
 }
+
+#Gallery img {
+	width:633px;
+	height: 409px;
+}
