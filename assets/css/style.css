@@ -7171,7 +7171,7 @@ footer {
 }
 
 .footer-item .logo {
-	height: 60px;
+	height: 90px;
 }
 
 .footer-item .widget-title {
@@ -9171,3 +9171,40 @@ footer {
 	width:633px;
 	height: 409px;
 }
+
+img {
+	border-radius: 20px;
+  }
+  
+
+  .newsletter-section {
+	 /* Bootstrap's 'bg-success' green */
+	border-radius: 20px;
+	overflow: hidden;
+  }
+  
+  .newsletter-box {
+	background-color: #198754;
+	border-radius: 20px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  .newsletter-form input[type="email"] {
+	height: 48px;
+	border-radius: 30px;
+	padding: 0 20px;
+	border: none;
+	outline: none;
+  }
+  
+  .newsletter-form button {
+	height: 48px;
+	border-radius: 30px;
+	border: none;
+	transition: background-color 0.3s ease;
+  }
+  
+  .newsletter-form button:hover {
+	background-color: #e6e6e6;
+  }
+  
