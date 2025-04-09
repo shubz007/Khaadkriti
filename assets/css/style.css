@@ -1829,7 +1829,7 @@ p {
 .btn.btn-theme {
 	color: var(--color-heading);
 	border: none;
-	background: var(--color-primary);
+	background: #49A760;
 }
 
 .btn.btn-theme::after {
@@ -1842,7 +1842,7 @@ p {
 	height: 150px;
 	width: 115%;
 	z-index: -1;
-	background-color: var(--color-secondary);
+	background-color: black;
 	-webkit-transition: all 0.25s ease-in-out;
 	transition: all 0.25s ease-in-out;
 	-webkit-transform: translateY(-45%) skew(25deg) scale(0);
