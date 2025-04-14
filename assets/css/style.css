@@ -9211,3 +9211,15 @@ img {
   /* .prodimg img{
 
   } */
+  
+  .form-trial{
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	font-size: 14px;
+	font-family: inherit;
+	color: #444;
+	background-color: #fff;
+	cursor: pointer;
+	width: 250px;
+  }
